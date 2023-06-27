@@ -37,8 +37,8 @@ $('.testimonial__carousel').owlCarousel({
 	mouseDrag: false,
 	smartSpeed: 1000,
 	dots: true,
-	navText: ['<img src="/img/arrow-left.svg" alt="arrow-left">',
-		'<img src="/img/arrow-right.svg" alt="arrow-right">'],
+	navText: ['<img src="./img/arrow-left.svg" alt="arrow-left">',
+		'<img src="./img/arrow-right.svg" alt="arrow-right">'],
 	animateOut: 'fadeOut',
 });
 // Testimonial__main-carousel
