@@ -9,20 +9,31 @@ $(document).ready(function () {
 			responsive: {
 				0: {
 					items: 1,
-					nav: true
+					nav: true,
+					dots: true,
+					dotsEach: 1,
 				},
 				425: {
 					items: 2,
 					nav: true,
+					dots: true,
+					dotsEach: 1,
 				},
 				768: {
 					items: 3,
-					nav: true
+					nav: true,
+					dots: true,
+					dotsEach: 3,
 				}
 			}
 		}
 	);
 });
+
+
+
+
+
 // Testimonial__main-carousel
 $('.testimonial__carousel').owlCarousel({
 	nav: true,
