@@ -4,8 +4,8 @@ $(document).ready(function () {
 			margin: 24,
 			nav: true,
 			items: 3,
-			navText: ['<img src="../img/arrow-left.svg" alt="arrow-left">',
-				'<img src="../img/arrow-right.svg" alt="arrow-right">'],
+			navText: ['<img src="/img/arrow-left.svg" alt="arrow-left">',
+				'<img src="/img/arrow-right.svg" alt="arrow-right">'],
 			responsive: {
 				0: {
 					items: 1,
@@ -31,8 +31,8 @@ $('.testimonial__carousel').owlCarousel({
 	mouseDrag: false,
 	smartSpeed: 1000,
 	dots: true,
-	navText: ['<img src="../img/arrow-left.svg" alt="arrow-left">',
-		'<img src="../img/arrow-right.svg" alt="arrow-right">'],
+	navText: ['<img src="/img/arrow-left.svg" alt="arrow-left">',
+		'<img src="/img/arrow-right.svg" alt="arrow-right">'],
 	animateOut: 'fadeOut',
 });
 // Testimonial__main-carousel
