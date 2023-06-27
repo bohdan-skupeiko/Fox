@@ -749,11 +749,11 @@ body {
 }
 
 .owl-prev:active {
-  transform: translateY(-3px);
+  transform: translateY(-1px);
 }
 
 .owl-next:active {
-  transform: translateY(-3px);
+  transform: translateY(-1px);
 }
 
 .portfolio__carousel-item {
