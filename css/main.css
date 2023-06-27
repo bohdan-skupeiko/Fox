@@ -747,6 +747,18 @@ body {
 .portfolio__main-carousel .owl-dots {
   padding-top: 33px;
 }
+.owl-theme .owl-dots .owl-dot span {
+  background-color: #E0E0E0;
+  width: 15px;
+  height: 3px;
+  margin: 0 4px 0 0;
+}
+.owl-dot:last-child {
+  margin: 0;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #FE390C;
+}
 
 .owl-prev:active {
   transform: translateY(-1px);
