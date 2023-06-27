@@ -49,16 +49,16 @@ $('.testimonial__carousel').owlCarousel({
 // Testimonial__main-carousel
 // FunctionCounter
 $(document).ready(function () {
-	var carousel2 = $('.testimonial__carousel');
-	var counter2 = $('.slide-counter');
+	const carousel2 = $('.testimonial__carousel');
+	const counter2 = $('.slide-counter');
 	carousel2.owlCarousel({
 		// Налаштування для першої каруселі testimonial
 	});
 	function updateCounter(event, counter) {
-		var currentItem = event.item.index + 1;
-		var totalItems = event.item.count;
-		var formattedCurrentItem = ('0' + currentItem).slice(-2);
-		var formattedTotalItems = ('0' + totalItems).slice(-2);
+		const currentItem = event.item.index + 1;
+		const totalItems = event.item.count;
+		const formattedCurrentItem = ('0' + currentItem).slice(-2);
+		const formattedTotalItems = ('0' + totalItems).slice(-2);
 
 		counter.html('<span>' + formattedCurrentItem + '</span>/' + formattedTotalItems);
 	}
